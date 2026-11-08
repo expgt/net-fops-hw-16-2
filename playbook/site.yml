@@ -1,6 +1,7 @@
 ---
 - name: Install Clickhouse
   hosts: clickhouse
+  tags: clickhouse
   handlers:
     - name: Start clickhouse service
       become: true
@@ -61,6 +62,7 @@
 
 - name: Install and configure Vector
   hosts: clickhouse
+  tags: vector
   vars:
     vector_version: "0.43.0"
     vector_config_dir: "/etc/vector"
