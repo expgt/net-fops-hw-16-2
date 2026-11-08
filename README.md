@@ -34,10 +34,7 @@
 
 ![8](https://github.com/expgt/net-fops-hw-16-2/blob/main/16_2_8.png)
 
-9. Подготовлен README.md-файл с описанием, что делает playbook, какие у него есть параметры и теги.
-
-[Documentation](https://github.com/expgt/net-fops-hw-16-2#ansible-playbook-clickhouse--vector-deployment)
-
+9. Подготовлен [README.md-файл](https://github.com/expgt/net-fops-hw-16-2#ansible-playbook-clickhouse--vector-deployment) с описанием, что делает playbook, какие у него есть параметры и теги.
 10. Готовый playbook выложен в созданный репозиторий, поставлен тег `08-ansible-02-playbook` на фиксирующий коммит.
 
 
